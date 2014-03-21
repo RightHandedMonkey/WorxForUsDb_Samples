@@ -213,13 +213,13 @@ public class NuggetTable extends TableInterface<Nugget> {
 			Log.w(this.getClass().getName(), "Upgrading table from " + oldVersion + " to " + newVersion);
 //			if (oldVersion < 1) { //EXAMPLE: if old version was V1, just add field
 //				// create new table
-//				db.execSQL("DROP TABLE IF EXISTS " + DATABASE_TABLE);
+//				db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
 //				onCreate(db);
 //				Log.d(this.getClass().getName(), "Creating new "+ DATABASE_TABLE + " Table");
 //			}
 //			if (oldVersion < 2) {
 //				//EXAMPLE: add field and change the index
-//				db.execSQL("ALTER TABLE "+DATABASE_TABLE+" ADD COLUMN "+NEW_COLUMN+" "+NEW_COLUMN_TYPE);
+//				db.execSQL("ALTER TABLE "+TABLE_NAME+" ADD COLUMN "+NEW_COLUMN+" "+NEW_COLUMN_TYPE);
 //				db.execSQL("DROP INDEX IF EXISTS "+INDEX_1_NAME); //remove old index
 //				db.execSQL(INDEX_1); //add a new index
 //				Log.d(this.getClass().getName(), "Adding new field and new index to "	+ DATABASE_TABLE + " Table");
