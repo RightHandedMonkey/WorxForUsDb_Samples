@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import com.worxforus.db.TableManager;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class NuggetDbActivity extends ActionBarActivity {
+public class NuggetDbActivity extends Activity {
     NuggetTable nuggetTable;
     static final int NUM_ITEMS_TO_CREATE = 5;
     static final int NUM_THREADS_TO_RUN = 10;
